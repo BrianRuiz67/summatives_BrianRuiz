@@ -2,11 +2,11 @@ import turtle as trtl
 
 #names
 pizza=trtl
-
+#(for later) trtl.addshape("sauce",(()))
 
 #color of pizza crust
-pizza.color("wheat")
-pizza.fillcolor("tomato")
+pizza.color("sandybrown")
+pizza.fillcolor("gold")
 #draw pizza shape
 pizza.pensize(50)
 pizza.penup()
@@ -16,6 +16,7 @@ pizza.begin_fill()
 pizza.circle(275)
 #draw crust
 pizza.end_fill()
+pizza.penup
 ''''
 pizza.penup()
 pizza.goto(0,-225)
